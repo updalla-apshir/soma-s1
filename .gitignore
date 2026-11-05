@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.venv*/
+poetry.lock
+ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artifacts (weights ship on the Hub, not in git)
+runs/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.onnx
+trainer_state.json
+optimizer.pt
+rng_state.pth
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and scratch
+*.log
+wandb/
+out/

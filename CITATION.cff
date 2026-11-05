@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use SOMA-S1, please cite it as below."
+title: "SOMA-S1: A From-Scratch Somali Foundation Language Model with Sparse Mixture-of-Experts and Multi-head Latent Attention"
+authors:
+  - given-names: Abdullahi
+    family-names: Abshir Boore
+    website: https://boore.dev
+version: 1.0.0
+date-released: "2026-11-05"
+license: Apache-2.0
+type: model
+keywords:
+  - somali
+  - low-resource
+  - mixture-of-experts
+  - multi-head-latent-attention
+  - from-scratch
+  - foundation-model
+abstract: >-
+  SOMA-S1 is a 126.19M-parameter (69.57M active) decoder-only foundation model
+  pretrained from scratch on the Somali NLP Corpus, pairing a sparse
+  Mixture-of-Experts feed-forward stack with Multi-head Latent Attention and a
+  custom 60,000-token byte-level BPE tokenizer. The run processed 1.0758B token
+  positions over 16,413 optimizer steps in BF16 on two RTX 3090 GPUs; validation
+  cross-entropy reached 3.76 before the run ended by host-side disk exhaustion.
